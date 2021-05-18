@@ -261,6 +261,31 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
    `http://localhost:5000` en tu navegador.
 8. A codear se ha dicho! :rocket:
 
+## Achicando el gran problema en problemas más pequeños
+
+Un "superpoder" que esperamos puedas desarrollar durante el bootcamp es el de definir "mini-proyectos" que te acerquen paso a paso a la solución del "gran proyecto". Es el equvalente a comenzar armando esquinas o bordes del rompecabezas/puzzle sin saber necesariamente cómo encajarán al final. Déjate llevar y explora. Estas son algunas sugerencias:
+
+"Mover" un valor de una caja de texto a otra
+Crea una interfaz simple con 2 cajas de texto y un botón. Si escribo algo en la caja de texto 1 y le doy click al botón, quiero que lo que escribí se "mueva" desde la caja 1 hacia la caja 2.
+
+Para lograr esto tendrás que aprender a: detectar un evento en el navegador (click), identificar un elemento de tu interfaz para obtener su contenido/valor (la caja de texto 1), "escribir" un valor en otro elemento de la interfaz (caja de texto 2).
+
+"Convertir" una letra en su código ASCII
+Pensando en la misma interfaz anterior (2 cajas de texto y 1 botón). Quiero escribir A o B (una sola) en la caja de texto 1 y que cuando le dé click al botón, aparezca el código ASCII de la letra en la caja de texto 2.
+
+Ahora no solamente estás "leyendo" y "escribiendo" valores en el navegador, también tendrás que "manipularlos" antes de "escribirlos".
+
+"Cifrar" A o B con un desplazamiento (offset) de 3
+Cuando escriba A o B en la caja de texto 1 y le dé click al botón, quiero que apaezca la letra cifrada en la caja de texto 2. Por ejemplo, si escribo B debe aparecer E.
+
+"Cifrar" una letra con un desplazamiento de 30 caracteres
+En los casos anteriores probamos con letras y con un desplazamiento que no implicaban llegar "más allá" de final del alfabeto. Ahora prueba con un caso que sí lo requiera. Por ejmplo 30 caracteres de desplazamiento. Para esto te puede ayudar el video de la sección "Recursos y temas relacionados". La fórmula no es lo importante en este proyecto, lo importante es lo que haces con la fórmula.
+
+"Cifrar" tres letras con un desplazamiento cuqlquiera
+Hasta ahora hemos explorado trabajar con una sola letra pero ¿cómo haríamos si son más? Para hacerlo tendrás que aprender cómo ir cifrando letra por letra y ya estás mucho más cerca de resolver el proyecto "grande"
+
+Fíjate que la complejidad es creciente, la clave está en definir el primer paso lo más simple y pequeño que puedas. Luego tú misma puedes ir agregando complejidad a medida que avanzas.
+
 ### Recursos y temas relacionados
 
 A continuación un video de Michelle que te lleva a través de la fórmula
