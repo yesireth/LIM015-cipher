@@ -261,7 +261,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
    `http://localhost:5000` en tu navegador.
 8. A codear se ha dicho! :rocket:
 
-## Achicando el gran problema en problemas más pequeños
+### Achicando el gran problema en problemas más pequeños
 
 Un "superpoder" que esperamos puedas desarrollar durante el bootcamp es el de definir "mini-proyectos" que te acerquen paso a paso a la solución del "gran proyecto". Es el equvalente a comenzar armando esquinas o bordes del rompecabezas/puzzle sin saber necesariamente cómo encajarán al final. Déjate llevar y explora. Estas son algunas sugerencias:
 
