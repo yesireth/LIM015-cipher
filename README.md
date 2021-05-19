@@ -246,8 +246,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
    [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
    tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
    en ese repo. 
-4. Despues de realizar el fork, y ya lo tienes como repo en tu propio cuenta github, :arrow_down: [clona](https://help.github.com/articles/cloning-a-repository/)
-   este repo para tenerlo en tu compu.
+4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/) tu fork a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
