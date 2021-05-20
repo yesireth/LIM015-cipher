@@ -62,7 +62,9 @@ ejemplo:
 
 Aprenderás a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+como tecnologías. 
+
+_No olvides a pensar en tu plan de acción - los objetivos que vas a prioritizar - y agrega tu plan en el README._
 
 ### HTML y CSS
 
@@ -142,7 +144,8 @@ La interfaz debe permitir al usuario:
 
 * `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
   así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
+  diseño que tomaron. Aquí puedes agregar un parte para definir tu plan de acción, 
+  Objetivos de Aprendizaje que vas a prioritizar este proyecto.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
 * `src/cipher.js`: acá debes implementar el objeto `cipher`, el cual ya está
@@ -347,6 +350,7 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
   el producto.
 * [ ] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
+* [ ] `README.md` (o otro archivo) contiene tu plan de acción - Objetivos que prioritizaste este proyecto.
 * [ ] Usa VanillaJS.
 * [ ] No utiliza `this`.
 * [ ] Implementa `cipher.encode`.
