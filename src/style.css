@@ -1,0 +1,30 @@
+body{
+    background-image:url(https://thumbs.dreamstime.com/b/fondo-romano-antiguo-de-la-pared-de-piedra-38013628.jpg);
+  background-repeat: repeat;
+  }
+
+button{
+
+    background: #caf7e3;
+    color:#bb371a;
+}
+button:hover{
+background: #f9b208;
+}
+button:active{
+    background: #7d7e7d
+}
+.estilotextarea {
+    width:400px;
+    height:300px;
+    border: 4px 
+    solid #990000;
+}
+
+input[type=number] {
+
+   
+    border: 3px solid  #990000 ;
+
+
+}
