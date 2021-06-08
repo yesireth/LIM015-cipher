@@ -10,17 +10,17 @@ function fnEncriptar(){
     
 
     let resultado= cipher.encode(txtllave, txtEntrada);
-
     txtcaja2.value=resultado;
 }
 
 function fnDesencriptar(){
-    let txtcaja2 = document.getElementById("txtcaja2").value;
-    let txtllave = document.getElementById("txtllave").value;
-  
+    let txtEntrada = document.getElementById("txtcaja1").value;
+    let txtcaja2 = document.getElementById("txtcaja2");
+    let txtllave =parseInt(document.getElementById("txtllave").value);
+
+    let resultadoDesifrado= cipher.decode(txtllave, txtEntrada);
+    txtcaja2.value= resultadoDesifrado; 
 }
 
-
-
 btnEncriptar.addEventListener("click", fnEncriptar);
-btnDesencriptar.addEventListener("click",btnDesencriptar);
+btnDesencriptar.addEventListener("click",fnDesencriptar);
