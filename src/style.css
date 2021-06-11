@@ -1,12 +1,35 @@
 body{
-    background-image:url(https://thumbs.dreamstime.com/b/fondo-romano-antiguo-de-la-pared-de-piedra-38013628.jpg);
+    background-image:url(https://thumbs.dreamstime.com/b/alfabeto-contra-un-fondo-oscuro-letras-110696510.jpg);
   background-repeat: repeat;
   }
 
-button{
+.estilo {
+    text-align: center;
+}
 
-    background: #caf7e3;
-    color:#bb371a;
+h1{
+    text-align: center;
+    color: #ffffff;
+    background: #252525cc;
+    padding: 20px 40px;
+    justify-content: center;
+    font-size: 60px;
+}
+p{
+    background: #252525cc;
+   padding: 10px;
+   color: #ffffff;
+   font-size: 20px;
+}
+button{
+    font-family: cursive;
+    background: #d0fffb;
+    color: #990000;
+    HEIGHT: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+
 }
 button:hover{
 background: #f9b208;
@@ -16,15 +39,15 @@ button:active{
 }
 .estilotextarea {
     width:400px;
-    height:300px;
+    height: 200px;
     border: 4px 
     solid #990000;
+    font-family: cursive;
 }
-
 input[type=number] {
-
-   
     border: 3px solid  #990000 ;
-
-
+    height: 25px;
+}
+#root{
+    font-family: cursive;
 }
