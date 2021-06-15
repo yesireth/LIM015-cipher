@@ -3,8 +3,7 @@ const cipher = {
     
     let salida="";
     let entrada=txtEntrada.toUpperCase();
-    console.log(entrada + txtllave);
-
+ 
     for (let i = 0; i < entrada.length; i++) {
 
       let posicion_act = entrada[i].charCodeAt();
